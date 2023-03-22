@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.div-secao-principal {
+    background-image:url('../../assets/img/secao-principal/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #e5e5e5;
+    min-height: 600px;
+    color: white;
+}
+
+@media(max-width:500px){
+    .div-secao-principal{
+        min-width: 450px;
+    }
+}
+
+.img-clea{
+    width: 100%;
+    height: 600px;
+    max-width: 900px;
+    min-width: 540px;
+    mix-blend-mode: lighten;
+}
+
+.img-wanda{
+    width: 100%;
+    min-width: 400px;
+    height: 600px;
+    mix-blend-mode: lighten;
+}
+
+.div-meio{
+    height: 600px;
+    width: 100%;
+}
+
+.img-circulo{
+    width: 100%;
+    max-width: 600px;
+    mix-blend-mode: screen;
+}
+
+
+.img-doutor{
+    width: 100%;
+    height: 530px;
+}
+
+.img-titulo{
+    width: 100%;
+    max-width: 500px;
+    mix-blend-mode: screen;
+    padding: 20px;
+}
+
+.div-img-circulo, .div-img-doutor, .div-img-titulo{
+    bottom: 0px;
+}
+
